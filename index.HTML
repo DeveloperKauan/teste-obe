@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Questões - OBE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Questões - Olimpíada Brasileira de Estatística</h1>
+    </header>
+    <main>
+        <form id="questionForm">
+            <label for="enunciado">Enunciado:</label>
+            <textarea id="enunciado" required></textarea>
+
+            <label for="alternativa_a">Alternativa A:</label>
+            <input type="text" id="alternativa_a" required>
+
+            <label for="alternativa_b">Alternativa B:</label>
+            <input type="text" id="alternativa_b" required>
+
+            <label for="alternativa_c">Alternativa C:</label>
+            <input type="text" id="alternativa_c" required>
+
+            <label for="alternativa_d">Alternativa D:</label>
+            <input type="text" id="alternativa_d" required>
+
+            <label for="alternativa_e">Alternativa E:</label>
+            <input type="text" id="alternativa_e" required>
+
+            <label for="gabarito">Gabarito (A, B, C, D ou E):</label>
+            <input type="text" id="gabarito" maxlength="1" required>
+
+            <label for="resolucao">Resolução:</label>
+            <textarea id="resolucao" required></textarea>
+
+            <label for="elaborador">Elaborador:</label>
+            <input type="text" id="elaborador" required>
+
+            <label for="nivel_dificuldade">Nível de Dificuldade:</label>
+            <input type="text" id="nivel_dificuldade" required>
+
+            <label for="conhecimentos">Conhecimentos:</label>
+            <input type="text" id="conhecimentos" required>
+
+            <label for="referencia">Referência Bibliográfica:</label>
+            <input type="text" id="referencia" required>
+
+            <label for="tema">Tema:</label>
+            <input type="text" id="tema" required>
+
+            <button type="submit">Cadastrar Questão</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
